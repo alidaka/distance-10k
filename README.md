@@ -4,6 +4,7 @@ Is there a better way to get a nice task runner?
 
 # Screens
 - Landing page - overview of program
+- List of resources (training plans, Strava, ...)
 - List of goals
 - Goal entry
 - Signin
