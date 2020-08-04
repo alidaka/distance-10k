@@ -1,3 +1,7 @@
+# Notes
+Is there a better way to get a nice task runner?
+`dotnet msbuild -target:push`
+
 # Screens
 - Landing page - overview of program
 - List of goals
