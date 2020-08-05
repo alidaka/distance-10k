@@ -1,4 +1,6 @@
 # Notes
+It's been a minute since I did .NET from the ground up, and this is my first time going full Angular SPA. Bear with me while I get a handle on the generated stuff.
+
 Is there a better way to get a nice task runner?
 `dotnet msbuild -target:push`
 
