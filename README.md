@@ -26,3 +26,6 @@ Is there a better way to get a nice task runner?
 heroku buildpacks:set jincod/dotnetcore
 heroku buildpacks:add --index 1 heroku/nodejs
 ```
+```
+heroku domains:add 10k.lidaka.io
+```
