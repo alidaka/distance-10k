@@ -24,9 +24,13 @@
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
   </ItemGroup>
 
-  <Target Name="push" >
+  <Target Name="push">
     <Exec Command="git push origin" />
     <Exec Command="git push github" />
+  </Target>
+
+  <Target Name="deploy" DependsOnTargets="push">
+    <Exec Command="git push heroku" />
   </Target>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
