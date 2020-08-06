@@ -20,3 +20,9 @@ Is there a better way to get a nice task runner?
 # Future
 - Pull Strava/other data
 - Profile pages
+
+# Deployment
+```
+heroku buildpacks:set jincod/dotnetcore
+heroku buildpacks:add --index 1 heroku/nodejs
+```
