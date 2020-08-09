@@ -18,5 +18,13 @@ html {
 }
 
 .nav-item:hover {
-  background:rgba(0, 0, 0, .1);
+  background-color:rgba(0, 0, 0, .1);
+}
+
+.link-active {
+  font-weight: bold;
+  background-image: linear-gradient(120deg, #dd1188 0%, #8fd3f4 100%);
+  background-size: 100% .2em;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
 }
