@@ -9,7 +9,8 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
-import { ResourcesComponent } from './resources/resources.component';
+import { PlanningComponent } from './planning/planning.component';
+import { TrainingComponent } from './training/training.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ResourcesComponent } from './resources/resources.component';
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
-    ResourcesComponent
+    PlanningComponent,
+    TrainingComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -28,7 +30,8 @@ import { ResourcesComponent } from './resources/resources.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-      { path: 'resources', component: ResourcesComponent },
+      { path: 'planning', component: PlanningComponent },
+      { path: 'training', component: TrainingComponent },
     ])
   ],
   providers: [],
